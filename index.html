@@ -20,7 +20,7 @@
         <!-- Top players and Top Blogs  -->
         <section class="container">
             <div class="top-players">
-                <h2 class="section-title">Top Players</h2>
+                <h2 id="top-player" class="section-title">Top Players</h2>
                 <div class="players">
                     <div class="player">
                         <img src="images/players/player-1.png" alt="">
@@ -50,7 +50,7 @@
             </div>
             <hr>
             <div class="top-blogs">
-                <h2 class="section-title">Top Blogs</h2>
+                <h2 id="top-blogs" class="section-title">Top Blogs</h2>
                 <div class="blogs">
                     <article class="blog">
                         <div class="thumbnai">
@@ -167,6 +167,26 @@
 
             </div>
         </section>
+        <!-- add list items -->
+        <section class="container">
+            <div class="item-section">
+                <div>
+                    <h2>List Items</h2>
+                    <ul id="ul-list">
+                        <li>Top Player</li>
+                        <li>Top Blogs</li>
+                        <li>Latest Courses</li>
+                    </ul>
+                    <button id="add-item" class="item-button">Add Item</button>
+                </div>
+                <div class="increasing-number">
+                    <input id="input" class="input-field" type="number" name="" value="0">
+                    <button id="plus" class="plus-button">+</button>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <script src="js/index.js"></script>
 </body>
 </html>

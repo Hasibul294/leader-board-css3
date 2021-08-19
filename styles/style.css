@@ -103,6 +103,35 @@ hr{
 .fa-star.empty{
     color: #AEAEAE;
 }
+.item-section{
+    display: flex;
+    justify-content: space-around;
+}
+.item-button{
+    background-color: chocolate;
+    color: white;
+    padding: 10px 26px 10px 26px;
+    border: white solid 2px;
+    border-radius: 20px;
+}
+.increasing-number{
+    display: flex;
+    align-items: center;
+    padding: 80px;
+}
+.input-field{
+    border: #FFC014 solid 2px;
+    padding-left: 5px;
+    font-size: larger;
+}
+.plus-button{
+    background-color: #FFC014;
+    font-size: x-large;
+    padding: 0 15px;
+    border: white solid 1px;
+    border-radius: 10px;
+
+}
 
 /* --------------------
         Media Quary
